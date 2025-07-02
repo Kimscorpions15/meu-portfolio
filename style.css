@@ -238,6 +238,12 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+    .tagline {
+        white-space: normal;
+        width: 100%;
+        animation: none;
+    }
+
     header h1 {
         font-size: 2em;
     }
@@ -267,18 +273,7 @@ footer a:hover {
         height: auto;
     }
 
-    @keyframes animated-text {
-        from {
-            width: 0;
-        }
-
-        to {
-            width: 100%;
-        }
-
-        body {
-            background-size: 30em;
-        }
+    body {
+        background-size: 30em;
     }
-
 }
