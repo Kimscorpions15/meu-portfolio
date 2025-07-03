@@ -75,7 +75,6 @@ header h1 {
     }
 }
 
-
 nav {
     background-color: #f5c1ff;
     padding: 15px 0;
@@ -112,7 +111,7 @@ section {
 }
 
 section h2,
-section h3 {
+h3 {
     color: #5ce8f1;
     border-bottom: 2px solid #f4f4f4;
     padding-bottom: 10px;
@@ -180,7 +179,6 @@ article {
     padding: 20px;
     flex-basis: calc(50% - 10px);
 }
-
 
 ul {
     list-style: none;
